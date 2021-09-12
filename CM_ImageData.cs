@@ -34,7 +34,7 @@ namespace CraftManager
             } else{
                 Texture2D converter = new Texture2D(2, 2);
                 converter.LoadImage(original_image);
-                return converter.EncodeToJPG();
+                return ImageConversion.EncodeToJPG(converter);
             }
         }
 

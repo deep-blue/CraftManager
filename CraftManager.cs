@@ -1,4 +1,4 @@
-﻿//Built Against KSP 1.8.0
+﻿//Built Against KSP 1.12.2
 //build id = 02686
 //2019-10-14 22:04:12 EDT
 
@@ -14,7 +14,7 @@ namespace CraftManager
     public class CraftManager : MonoBehaviour
     {
 
-        public static string version = "1.2.0";
+        public static string version = "1.2.1";
         public static Version game_version = new Version(Versioning.GetVersionString());
 
         //Settings
